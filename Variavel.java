@@ -11,15 +11,15 @@ package padrãointerpreter;
  */
 public class Variavel implements ExpressaoInterpreter {
 
-    private int variavel;
+    private double variavel;
     
-    public Variavel(int v){
+    public Variavel(double v){
         super();
         this.variavel = v;
     }
     
     @Override
-    public int interpretar() {
+    public double interpretar() {
         return variavel;
     }
 

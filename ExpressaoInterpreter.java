@@ -11,6 +11,6 @@ package padrãointerpreter;
  */
 public interface ExpressaoInterpreter {
 
-    public int interpretar();
+    public double interpretar();
     
 }

@@ -21,7 +21,7 @@ public class Subtrair implements ExpressaoInterpreter{
     }
 
     @Override
-    public int interpretar() {
+    public double interpretar() {
         return esquerda.interpretar() - direita.interpretar();
     }
     
